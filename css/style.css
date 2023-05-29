@@ -56,8 +56,14 @@ nav{
   margin: auto;
 }
 
+.section-white{
+  background-color: white;
+}
+.section-grey{
+  background-color: rgb(211, 211, 211);
+}
+
 .container-blue-pink{
-  background-color: rgb(200, 156, 156); 
   max-width: 900px;
   min-height: 300px;
   margin: auto;
@@ -68,7 +74,6 @@ nav{
 }
 
 .container-pink-blue{
-  background-color: rgb(211, 211, 211); 
   max-width: 900px;
   min-height: 300px;
   margin: auto;
@@ -90,4 +95,18 @@ nav{
   border: 1px dashed black;
   height: 300px;
   flex-grow: 1;
+}
+
+.container-green{
+  max-width: 900px;
+  min-height: 300px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contentgreen{
+  background-color: rgb(34, 139, 34);
+  border: 1px dashed black;
+  height: 700px;
 }
