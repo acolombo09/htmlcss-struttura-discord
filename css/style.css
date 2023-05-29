@@ -110,3 +110,59 @@ nav{
   border: 1px dashed black;
   height: 700px;
 }
+
+.section-black-upper{
+  background-color: rgb(35, 39, 42);
+}
+
+.container-black-upper{
+  max-width: 900px;
+  min-height: 450px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.columnred{
+  background-color: rgb(240, 128, 128);
+  border: 1px dashed black;
+  flex-grow: 2;
+}
+
+.columngreen{
+  background-color: rgb(32, 178, 170);
+  border: 1px dashed rgb(255, 255, 255);
+  flex-grow: 1;
+}
+
+.section-black-lower{
+  background-color: rgb(35, 39, 42);
+  padding-top: 20px;
+}
+
+.container-footer{
+  background-color: rgb(127, 255, 212);
+  max-width: 900px;
+  min-height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo{
+  background-color: rgb(255, 182, 193);
+  border: 1px dashed black;
+  justify-content: center;
+}
+
+.footer-login{
+  background-color: rgb(255, 182, 193);
+  border: 1px dashed black;
+  justify-content: center;
+}
+
+hr{
+  color: white;
+}
