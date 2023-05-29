@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  background-color: rgb(173, 216, 230);
+  width: 100%;
+  min-height: 70px;
+}
+
+.container-nav{
+  background-color: rgb(218, 165, 32);
+  border: 1px dashed black;
+  height: 50px;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-logo{
+  flex-grow: 1;
+  border: 1px dashed black;
+}
+.nav-links{
+  flex-grow: 2;
+  border: 1px dashed black;
+  justify-content: space-evenly;
+}
+.nav-login{
+  flex-grow: 1;
+  border: 1px dashed black;
+}
